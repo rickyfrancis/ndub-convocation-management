@@ -9,3 +9,10 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+# Third-party libraries bundled with the admin theme (pdfmake, jQuery UI,
+# Chart.js, DataTables, moment, fullcalendar, jqvmap). These are not project
+# code and should not count toward GitHub's language statistics.
+public/contents/** linguist-vendored
+*.min.js linguist-vendored
+*.min.css linguist-vendored
